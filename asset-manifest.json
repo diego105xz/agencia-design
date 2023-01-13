@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/agencia-design/static/css/main.073c9b0a.css",
-    "main.js": "/agencia-design/static/js/main.709403d8.js",
-    "static/js/787.237b4b1f.chunk.js": "/agencia-design/static/js/787.237b4b1f.chunk.js",
-    "static/media/logo.svg": "/agencia-design/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/agencia-design/static/css/main.341c9d83.css",
+    "main.js": "/agencia-design/static/js/main.2e1cb178.js",
+    "static/media/banner.png": "/agencia-design/static/media/banner.24792d13f8ae0f0c8e94.png",
+    "static/media/moon.png": "/agencia-design/static/media/moon.aa0519968d404fb6f25a.png",
     "index.html": "/agencia-design/index.html",
-    "main.073c9b0a.css.map": "/agencia-design/static/css/main.073c9b0a.css.map",
-    "main.709403d8.js.map": "/agencia-design/static/js/main.709403d8.js.map",
-    "787.237b4b1f.chunk.js.map": "/agencia-design/static/js/787.237b4b1f.chunk.js.map"
+    "main.341c9d83.css.map": "/agencia-design/static/css/main.341c9d83.css.map",
+    "main.2e1cb178.js.map": "/agencia-design/static/js/main.2e1cb178.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.709403d8.js"
+    "static/css/main.341c9d83.css",
+    "static/js/main.2e1cb178.js"
   ]
 }
