@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.img-logo{
+    height: 30px;
+}
+
+.img-icone{
+    height: 30px;
+}
+
+button{
+    border-radius: 50%;
+    border: 1px solid gray;
+}

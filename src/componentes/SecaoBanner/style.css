@@ -1,0 +1,43 @@
+.secao-banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+}
+
+.img-banner{
+    width: 50%;
+}
+
+.banner-conteudo{
+    background-color: #fafbfc;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secao-banner p{
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #022144;
+    margin: 0;
+}
+
+.secao-banner h1{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+    color: #022144;
+    margin: 0;
+}
+
+.secao-banner span{
+    font-size: 40px;
+    font-weight: bold;
+    color: #022144;
+    margin: 0;
+}
