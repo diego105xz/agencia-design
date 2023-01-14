@@ -1,0 +1,25 @@
+.card{
+    width: 33,3%;
+    border: 1px solid #caccd6;
+    height: 200px;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.data, .tipo{
+    color: #8a8fa3;
+    font-size: 14px;
+}
+
+.empresa{
+    color: #022144;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.descricao{
+    margin-top: 20px;
+    color: #8a8fa3;
+    font-size: 13px;
+}

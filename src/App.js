@@ -3,6 +3,7 @@ import './App.css';
 import Topo from './componentes/Topo';
 import SecaoBanner from './componentes/SecaoBanner';
 import SecaoExperiencia from './componentes/SecaoExperiencia';
+import Rodape from './componentes/Rodape';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Topo />
       <SecaoBanner />
       <SecaoExperiencia />
+      <Rodape />
     </div>
   );
 }
