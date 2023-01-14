@@ -5,8 +5,20 @@
     height: 95vh;
 }
 
-.img-banner{
+.banner-tema-dark{
+    height: 100%;
     width: 50%;
+    background-color: #252525;
+}
+
+.banner-tema-light{
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+}
+
+.img-banner{
+    width: 100%;
 }
 
 .banner-conteudo{
