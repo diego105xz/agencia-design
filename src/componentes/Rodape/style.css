@@ -1,16 +1,28 @@
-footer{
+.rodape-light{
     width: 100%;
-    height: 300px;
+    height: 400px;
     margin: 40px auto;
     text-align: center;
+    margin: 0px;
+    padding: 50px 0px;
 }
 
-p{
+.rodape-dark{
+    width: 100%;
+    height: 400px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #252525;
+    margin: 0px;
+    padding: 50px 0px;
+}
+
+.desc-rodape{
     color: #8a8fa3;
     width: 50%;
     margin: 50px auto;
     font-size: 18px;
-    padding: 5px;
+    padding: 5px;   
 }
 
 .redes{
@@ -18,7 +30,32 @@ p{
     padding: 5px;
 }
 
+.copy-right{
+    padding: 30px;
+}
+
 span{
     color: #feb633;
     letter-spacing: 3px;
+}
+
+@media screen and (max-width: 640px) {
+    .rodape-light{
+        width: 100%;
+        height: 450px;
+        margin: 40px auto;
+        text-align: center;
+        margin: 0px;
+        padding: 50px 0px;
+    }
+    
+    .rodape-dark{
+        width: 100%;
+        height: 500px;
+        margin: 40px auto;
+        text-align: center;
+        background-color: #252525;
+        margin: 0px;
+        padding: 50px 0px;
+    }
 }

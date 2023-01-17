@@ -1,36 +1,54 @@
 import './style.css';
 
-import Card from '../Card';
-
-function SecaoExperiencia(){
+function SecaoExperiencia(props){
     return(
-        <section className='secao-exp'>
-            <h2>
-                Experiências deTrabalho
+        <section className= {props.ehTemaDark ? 'secao-exp-dark' :'secao-exp-light'}>
+            <h2 className= {props.ehTemaDark ? 'titulo-exp-dark' :'titulo-exp-light'}>
+                Experiências de Trabalho
                 <div className='linha'></div>
             </h2>
-            <p>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
+            <p className = {props.ehTemaDark ? 'desc-dark' : 'desc-light'}>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
             Sites e Marketing Digital, nos empenhamos diariamente para entregar
             resultados que tragam impacto aos nossos clientes.</p>
             <div className='colecao-cards'>
-                <Card 
-                data="JUNHO 2012 - 2016"
-                empresa="Web Designer"
-                tipo="Pied piper StartUp"
-                descricao="Criação de Landing pages, sites institucionais e E-commerces completamente personalizados e otimizados para buscadores."
-                />
-                <Card 
-                data="AGOSTO 2016 - 2019"
-                empresa="Product Designer"
-                tipo="E Corp."
-                descricao="Criação de modelos estratégicos de conversão identificando o cliente e mapeando toda a sua jornada de compra."
-                />
-                <Card 
-                data="FEVEREIRO 2019 - 2021"
-                empresa="Digital Consulting"
-                tipo="Arasaka Inc."
-                descricao="Consultoria em estratégias digitais para todas as etapas do ciclo do projeto, desde a definição inicial até a execução."
-                />
+                <div className = {props.ehTemaDark ? 'card-dark' : 'card-light'}>
+
+                    <p className={props.ehTemaDark ?'data-dark':'data-light'}>JUNHO 2012 - 2016</p>
+
+                    <h4 className={props.ehTemaDark?'empresa-dark':'empresa-light'}>Web Designer</h4>
+
+                    <p className={props.ehTemaDark?'tipo-dark':'tipo-light'}>Pied Piper StartUp.</p>
+
+                    <p className={props.ehTemaDark?'descricao-dark':'descricao-light'}>
+                        Criação de Landing pages, sites institucionais e E-commerces completamente personalizados e otimizados para buscadores.
+                    </p>
+                </div>
+
+                <div className = {props.ehTemaDark ? 'card-dark' : 'card-light'}>
+
+                    <p className={props.ehTemaDark ?'data-dark':'data-light'}>AGOSTO 2016 - 2019</p>
+
+                    <h4 className={props.ehTemaDark?'empresa-dark':'empresa-light'}>Product Designer</h4>
+
+                    <p className={props.ehTemaDark?'tipo-dark':'tipo-light'}>E Corp.</p>
+
+                    <p className={props.ehTemaDark?'descricao-dark':'descricao-light'}>
+                        Criação de modelos estratégicos de conversão identificando o cliente e mapeando toda a sua jornada de compra.
+                    </p>
+                </div>
+
+                <div className = {props.ehTemaDark ? 'card-dark' : 'card-light'}>
+
+                    <p className={props.ehTemaDark ?'data-dark':'data-light'}>FEVEREIRO 2019 - 2021</p>
+
+                    <h4 className={props.ehTemaDark?'empresa-dark':'empresa-light'}>Digital Consulting</h4>
+
+                    <p className={props.ehTemaDark?'tipo-dark':'tipo-light'}>Arasaka Inc.</p>
+
+                    <p className={props.ehTemaDark?'descricao-dark':'descricao-light'}>
+                        Consultoria em estratégias digitais para todas as etapas do ciclo do projeto, desde a definição inicial até a execução.
+                    </p>
+                </div>
             </div>
         </section>
     );

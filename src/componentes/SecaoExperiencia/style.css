@@ -1,17 +1,30 @@
-.secao-exp {
+.secao-exp-light {
     text-align: center;
     width: 100%;
     height: 100vh;
     background-color: #f6f8f8fc;
 }
 
-.secao-exp h2{
+.secao-exp-dark{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #393838;
+}
+
+.titulo-exp-light{
     font-size: 32px;
     color: #32333c;
     padding: 40px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
+.titulo-exp-dark{
+    font-size: 32px;
+    color: #cccccc;
+    padding: 40px;
+    margin: 0px auto;
+}
 
 .linha{
     margin: 0 auto;
@@ -20,8 +33,15 @@
     background-color: #feb633;
 }
 
-.secao-exp p{
+.desc-light{
     color: #8a8fa3;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.desc-dark{
+    color: #cccccc;
     margin: 0 auto;
     width: 60%;
     text-align: center;
@@ -31,4 +51,129 @@
     width: 60%;
     margin: 100px auto;
     display: flex;
+}
+
+.card-light{
+    width: 33,3%;
+    border: 1px solid #caccd6;
+    height: 200px;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.card-dark{
+    width: 33,3%;
+    border: 1px solid #32333c;
+    height: 200px;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.data-light, .tipo-light{
+    color: #8a8fa3;
+    font-size: 14px;
+    margin: 0px 0px 5px;
+}
+
+.data-dark, .tipo-dark{
+    color: #9f9f9f;
+    font-size: 14px;
+    margin: 0px 0px 5px;
+}
+
+.empresa-light{
+    color: #022144;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 5px 0px;
+}
+.empresa-dark{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 5px 0px;
+}
+
+
+.descricao-light{
+    margin-top: 20px;
+    color: #8a8fa3;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.descricao-dark{
+    margin-top: 20px;
+    color: #9f9f9f;
+    font-size: 13px;
+    margin: 0px;
+}
+
+@media screen and (max-width:1260px) {
+    .colecao-cards{
+        width: 90%;
+        margin: 100px auto;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .colecao-cards{
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-light{
+        width: 33,3%;
+        border: 1px solid #caccd6;
+        height: 150px;
+        padding: 10px 20px;
+        text-align: left;
+    }
+    
+    .card-dark{
+        width: 33,3%;
+        border: 1px solid #32333c;
+        height: 150px;
+        padding: 10px 20px;
+        text-align: left
+    }
+
+    .desc-light{
+        color: #8a8fa3;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    
+    .desc-dark{
+        color: #cccccc;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    
+
+}
+
+@media screen and (max-width: 560px) {
+    .titulo-exp-light{
+        font-size: 24px;
+        color: #32333c;
+        padding: 20px;
+        margin: 0px auto;
+    }
+    
+    .titulo-exp-dark{
+        font-size: 24px;
+        color: #cccccc;
+        padding: 20px;
+        margin: 0px auto;
+    }
 }

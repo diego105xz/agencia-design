@@ -8,11 +8,11 @@ import dribble from '../../assets/dribble.png';
 import be from '../../assets/behance.png';
 import google from '../../assets/google-plus.png';
 
-function Rodape(){
+function Rodape(props){
     return(
-        <footer>
+        <footer className = {props.ehTemaDark ? 'rodape-dark' : 'rodape-light'}>
             <img src={logo} alt="logo" className="logo-img"/>
-            <p>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
+            <p className='desc-rodape'>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
             ferramentas e tecnologias personalizadas.
             </p>
             <div>
@@ -23,7 +23,7 @@ function Rodape(){
                 <img src={be} alt='logo' className='redes'/>
                 <img src={google} alt='logo' className='redes'/>
             </div>
-            <p>Copyright 2022 © <span>Diego Melo</span></p>
+            <p className='copy-right'>Copyright 2022 © <span>Diego Melo</span></p>
         </footer>
     );
 }
